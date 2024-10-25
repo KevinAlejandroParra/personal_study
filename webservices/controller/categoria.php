@@ -32,7 +32,7 @@ switch($_GET["op"]){
 
     case "Delete";
     $datos=$categoria->delete_categoria($body["cat_id"]);
-    echo json_encode("inactivo");
+    echo json_encode("categoria en estadoinactivo");
     break;
 
     case "Eliminar";
